@@ -1,0 +1,10 @@
+name: HexEmpire
+main: me.memeEnjoyer.HexEmpire.HexEmpire
+version: 1.0
+commands:
+   empireCreate:
+      usage: /<command> empireName empireSize
+      description: Creates a new empire of a given name and size with the center at sender's coordinates
+   addMember:
+      usage: /<command> empireName playerName
+      description: Adds user to the empire's members list
